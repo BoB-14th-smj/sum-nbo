@@ -1,28 +1,37 @@
 # 보안제품개발 서민재 sun-nbo 과제 제출
 
-## 0:00 ~ 0:10 
+# 영상
+
+
+## 0:00 ~ 0:12 
 - make clean 및 make
   
-## 0:10 ~ 0:20 
+## 0:10 ~ 0:16 
 - 정상 입력 확인
   ```bash
   ./sum-nbo thousand.bin five-hundred.bin two-hundred.bin
 
-## 0:20 ~ 0:35 
-- 파일 1~2개씩 open 실패했을 경우 확인
+## 0:20 ~ 0:30
+- 파일 1개씩 open 실패했을 경우 확인
   ```bash
-  ./sum-nbo thousand.bi five-hundred.bin two-hundred.bin
-  ./sum-nbo thousand.bi five-hundred.bi two-hundred.bin
   ./sum-nbo thousand.bin five-hundred.bin two-hundred.bi
+  ./sum-nbo thousand.bin five-hundred.bi two-hundred.bin
+  ./sum-nbo thousand.bi five-hundred.bin two-hundred.bin
 
-## 0:35 ~ 0:42 
+## 0:30 ~ 0:35
 - 파일 전부 open 하지 못했을 때
   ```bash
   ./sum-nbo thousand.bi five-hundred.bi two-hundred.bi
 
 -> CAN'T CALC!! 출력
 
-## 0:42 ~ 0:50 
+## 0:35 ~ 0:42
+- 파일 1개만 open 실패했을 경우 확인
+  ```bash
+  ./sum-nbo thousand.bi five-hundred.bin two-hundred.bi
+  ./sum-nbo thousand.bi five-hundred.bi two-hundred.bin
+
+## 0:42 ~ 0:50
 - 입력 매개변수 없음
   ```bash
     ./sum-nbo
