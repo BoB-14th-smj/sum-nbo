@@ -1,7 +1,8 @@
 # 보안제품개발 서민재 sun-nbo 과제 제출
 
 # 영상
-
+[깃허브 영상 링크](https://github.com/BoB-14th-smj/sum-nbo/blob/main/%EB%B3%B4%EC%95%88%EC%A0%9C%ED%92%88%EA%B0%9C%EB%B0%9C-%EC%84%9C%EB%AF%BC%EC%9E%AC-sum-nbo.mp4)  
+[유튜브 영상 링크](https://youtu.be/Hm6aCrKRaUU)
 
 ## 0:00 ~ 0:12 
 - make clean 및 make
